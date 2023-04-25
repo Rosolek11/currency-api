@@ -17,13 +17,13 @@ b) Wpisz: http://127.0.0.1:8000/api/currency-rates.<br>
 c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.<br>
 d) Kliknij na zakładkę Body, wybierz raw i ustaw typ danych na JSON.<br>
 Wpisz przykład danych w polu tekstowym np:<br>
-
+```
 {
     "currency": "EUR",
     "date": "2023-04-13",
     "amount": 4.66
 }
-
+```
 Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z dodanym kursem waluty.
 
 
