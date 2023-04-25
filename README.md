@@ -1,4 +1,4 @@
-<h1>Zadanie rekrutacyjne Currency-api</h1>
+<h1>Currency-api</h1>
 
 <h3>Uruchom serwer Laravel:</h3>
 
