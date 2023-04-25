@@ -12,11 +12,11 @@ W naszym przypadku nie ma dedykowanego endpointu autoryzacji, ale zamiast tego u
 
 <h3>1. Endpoint: Dodanie kursu waluty (POST)</h3>
 
-a) wybierz metodę żądania jako POST.
-b) Wpisz: http://127.0.0.1:8000/api/currency-rates.
-c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.
-d) Kliknij na zakładkę Body, wybierz raw i ustaw typ danych na JSON.
-Wpisz przykład danych w polu tekstowym np:
+a) wybierz metodę żądania jako POST.<br>
+b) Wpisz: http://127.0.0.1:8000/api/currency-rates.<br>
+c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.<br>
+d) Kliknij na zakładkę Body, wybierz raw i ustaw typ danych na JSON.<br>
+Wpisz przykład danych w polu tekstowym np:<br>
 
 {
     "currency": "EUR",
@@ -29,18 +29,18 @@ Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z dodanym kursem walu
 
 <h3>2. Endpoint: Lista kursów walut z danego dnia (GET)</h3>
 
-a) Wybierz metodę żądania jako GET.
-b) Wpisz: http://127.0.0.1:8000/api/currency-rates?date=2023-04-13.
-c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.
-d) Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z listą kursów walut z danego dnia.
+a) Wybierz metodę żądania jako GET.<br>
+b) Wpisz: http://127.0.0.1:8000/api/currency-rates?date=2023-04-13.<br>
+c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.<br>
+d) Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z listą kursów walut z danego dnia.<br>
 
 3.
 <h3>3. Endpoint: Pobranie kursu dla wybranej waluty z danego dnia (GET)</h3>
 
-a) Wybierz metodę żądania jako GET.
-b) Wpisz: http://127.0.0.1:8000/api/currency-rates/EUR?date=2023-04-13.
-c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.
-d) Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z kursem wybranej waluty z danego dnia.
+a) Wybierz metodę żądania jako GET.<br>
+b) Wpisz: http://127.0.0.1:8000/api/currency-rates/EUR?date=2023-04-13.<br>
+c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.<br>
+d) Kliknij na przycisk Send. Powinieneś otrzymać odpowiedź z kursem wybranej waluty z danego dnia.<br>
 
 
 ## Contributing
