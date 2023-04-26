@@ -14,7 +14,7 @@ W naszym przypadku nie ma dedykowanego endpointu autoryzacji, ale zamiast tego u
 
 a) wybierz metodę żądania jako POST.<br>
 b) Wpisz: http://127.0.0.1:8000/api/currency-rates.<br>
-c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key.<br>
+c) Kliknij na zakładkę Headers i dodaj nowy nagłówek o nazwie Api-Key i wartości your-secret-api-key. domyslnie "2add8320-1315-4bfc-8a40-09c9ecce482a" <br>
 d) Kliknij na zakładkę Body, wybierz raw i ustaw typ danych na JSON.<br>
 Wpisz przykład danych w polu tekstowym np:<br>
 ```
